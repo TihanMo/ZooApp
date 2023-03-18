@@ -1,7 +1,6 @@
 # Tier infos
 
 ## Bengaltiger
-
 <img src="./Bengaltieger.jpg" width="400px"/>
 
 Als Zoo interessieren wir uns sehr für Bengaltiger, auch bekannt als Indische Tiger. Diese majestätischen Großkatzen sind eine Unterart des Tigers und sind in der Wildnis des indischen Subkontinents beheimatet.
