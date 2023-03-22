@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+/*Header*/
+
+.trenn_strich {
+  width: 100%;
+  height: 2px;
+  background-color: black;  
+}
+
+.menu_strich {
+  width: 40px;
+  height: auto;
+}

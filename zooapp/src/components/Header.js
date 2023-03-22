@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
+import '../App.css';
+import bild from '../sys_bilder/menu_strich.png';
 
 export default function Header() {
   return (
     <div>
-      <h1>HEADER</h1>
+      <img src={bild} alt="SVG as an image" className='menu_strich'></img>
+      <div>
+        <button>Anmelden</button>
+      </div>
+      <div className='trenn_strich'></div>
     </div>
   )
 }
