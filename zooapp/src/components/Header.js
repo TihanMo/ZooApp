@@ -4,11 +4,9 @@ import bild from '../sys_bilder/menu_strich.png';
 
 export default function Header() {
   return (
-    <div>
-      <img src={bild} alt="SVG as an image" className='menu_strich'></img>
-      <div>
-        <button>Anmelden</button>
-      </div>
+    <div className='header_top'>
+      <img src={bild} alt="Menü Logo" className='menu_strich header_inhalt'></img>
+      <button className='header_inhalt'>Anmelden</button>
       <div className='trenn_strich'></div>
     </div>
   )
