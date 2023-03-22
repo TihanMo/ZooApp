@@ -49,3 +49,20 @@
   width: 40px;
   height: auto;
 }
+
+.header_top {
+  display: flex;
+}
+
+.header_top::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.header_inhalt {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  text-align: center;
+}
