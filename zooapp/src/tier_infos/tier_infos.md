@@ -43,3 +43,14 @@ Pandabären sind sehr wählerisch in ihrer Ernährung und ernähren sich haupts�
 Pandabären sind auch sehr empfindlich und benötigen eine spezielle Pflege. Im Zoo stellen wir sicher, dass ihre natürlichen Lebensräume so genau wie möglich nachgebildet werden, um ihnen ein komfortables und stressfreies Leben zu ermöglichen.
 
 Insgesamt sind Große Pandas faszinierende Tiere und wir fühlen uns geehrt, Teil ihrer Bewahrung und Erforschung zu sein. Wir hoffen, dass wir dazu beitragen können, dass diese erstaunlichen Tiere noch viele Generationen lang auf unserem Planeten leben werden.
+
+## Eurasischer Wolf
+<img src="./Eurasischer_Wolf.jpg" width="400px"/>
+
+Der Eurasische Wolf ist die größte Unterart des Grauwolfs und lebt in weiten Teilen Eurasiens. In Zoos werden diese Tiere meist in großen Gehegen gehalten, die ihren natürlichen Lebensraum möglichst gut nachbilden. Dabei achten wir darauf, dass die Gehege ausreichend Platz, Versteckmöglichkeiten und auch eine entsprechende Vegetation bieten.
+
+Unsere Zoobesucher können in unseren Gehegen die Sozialstruktur der Wolfsherde beobachten, die aus einem Alpha-Paar, ihren Nachkommen und gelegentlich auch aus anderen erwachsenen Tieren besteht. Durch die Fütterungen und unsere Informationsangebote lernen unsere Besucher auch mehr über das Verhalten und die Kommunikation dieser faszinierenden Tiere.
+
+Als Zoo engagieren wir uns auch im Artenschutz und beteiligen uns an Zuchtprogrammen, die dazu beitragen sollen, die Bestände der Eurasischen Wölfe in Zoos und in der Wildnis zu erhalten. Dabei arbeiten wir eng mit anderen Zoos und Organisationen zusammen, um einen möglichst erfolgreichen und nachhaltigen Schutz dieser Tierart zu gewährleisten.
+
+Insgesamt ist der Eurasische Wolf eine faszinierende Tierart, die wir als Zoo gerne unseren Besuchern präsentieren und dabei auch einen Beitrag zum Schutz dieser Art leisten möchten.
