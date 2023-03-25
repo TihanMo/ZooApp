@@ -6,9 +6,15 @@ import logo from '../logos/png/logo-black.png';
 export default function Header() {
   return (
     <div className='header_top'>
-      <img src={bild} alt="Menü Logo" className='menu_strich header_inhalt'></img>
-      <img src={logo} alt='Logo' className='header_inhalt menu_strich' id='logo'></img>
-      <button className='header_inhalt'>Anmelden</button>
+      <div className='header_inhalt' id='menu_logo'>
+        <img src={bild} alt="Menü Logo" className='menu_strich' />
+      </div>
+      <div className='header_inhalt' id='logo'>
+        <img src={logo} alt='Logo' id='logo_inhalt'/>
+      </div>
+      <div className='header_inhalt' id='btn_anmelden'>
+        <button className='anmelden'>Anmelden</button>
+      </div>
     </div>
   )
 }
