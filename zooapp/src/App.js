@@ -7,7 +7,9 @@ import Impressum from './components/Impressum';
 function App() {
   return (
     <div className="App">
-      <Home/>
+      <Header/>
+      <Home />
+      <Footer/>
     </div>
   );
 }
