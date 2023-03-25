@@ -1,13 +1,15 @@
 import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import Homer from './components/Home';
+import Home from './components/Home';
+import Impressum from './components/Impressum';
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Homer/>
+      <Home/>
+      <Impressum />
       <Footer/>
     </div>
   );

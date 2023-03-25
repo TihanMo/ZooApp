@@ -6,7 +6,7 @@
   color: #61dafb;
 }
 
-/*Header*/
+/*HEADER*/
 
 .menu_strich {
   height: 40px;
@@ -69,4 +69,13 @@
 .anmelden:hover {
   background-color: white;
   color: black;
+}
+
+/*FOOTER*/
+
+.footer {
+  position: absolute;
+  width: 100%;
+  border-top: 2px solid black;
+  top: 100%;
 }
