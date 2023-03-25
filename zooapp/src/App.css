@@ -79,3 +79,9 @@
   border-top: 2px solid black;
   top: 100%;
 }
+
+/*TextBox*/
+
+.TextBox {
+  background-color: #9e9e9e;
+}
