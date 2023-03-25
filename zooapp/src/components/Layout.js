@@ -8,7 +8,6 @@ export default function Layout() {
     return (
       <div className="App">
         <Header />
-        <Link to="/">Home</Link>
         <Footer />
         <Outlet />
       </div>
