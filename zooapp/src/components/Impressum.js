@@ -1,7 +1,7 @@
 import React from 'react'
 import '../App.css';
 
-export default function impressum() {
+export default function Impressum() {
   return (
     <div>
         <h1>Impressum</h1>
