@@ -5,12 +5,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Impressum from './components/Impressum';
+import Layout from './components/Layout';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />}>
+        <Route path="/" element={<Layout />}>
           <Route index element={<App />} />
           <Route path="impressum" element={<Impressum />} />
         </Route>
