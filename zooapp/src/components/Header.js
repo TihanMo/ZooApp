@@ -21,13 +21,6 @@ export default function Header() {
       </div>
       <div id="menu_inhalt" class="m_inhalt">
         <a href="javascript:void(0)" class="closebtn" onClick={closeNav}>&times;</a>
-        <BrowserRouter>
-          <Routes>
-            <Route>
-              <Route path="impressum" element={<Impressum />} />
-            </Route>
-          </Routes>
-        </BrowserRouter>
       </div>
       <div className='header_inhalt' id='logo'>
         <img src={logo} alt='Logo' id='logo_inhalt'/>
