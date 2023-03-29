@@ -34,9 +34,6 @@ export default function Datenschutz() {
         <h3>Weitergabe von personenbezogenen Daten:</h3>
         <p>Wir geben Ihre personenbezogenen Daten nur an Dritte weiter, wenn dies gesetzlich vorgeschrieben ist oder wenn wir Ihre ausdrückliche Zustimmung dazu haben.</p>
         
-        <h3>Cookies:</h3>
-        <p>Wir verwenden Cookies auf unserer Website, um die Nutzererfahrung zu verbessern und die Nutzung unserer Website zu vereinfachen. Cookies sind kleine Textdateien, die auf Ihrem Computer gespeichert werden und die Informationen darüber enthalten, wie Sie unsere Website nutzen. Sie können die Verwendung von Cookies jederzeit deaktivieren, indem Sie die Einstellungen in Ihrem Browser ändern.</p>
-        
         <h3>Änderungen dieser Datenschutzerklärung:</h3>
         <p>Wir behalten uns das Recht vor, diese Datenschutzerklärung jederzeit zu ändern. Bitte überprüfen Sie diese Seite regelmäßig auf Änderungen.</p>
         
