@@ -135,5 +135,9 @@ div#image_bg{
 /*TextBox*/
 
 .text_box {
-  color: yellow;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 30px;
+  background-color: #9be9ffb7;
+  max-width: 400px;
 }
