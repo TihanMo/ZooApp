@@ -141,3 +141,10 @@ div#image_bg{
   background-color: #9be9ffb7;
   max-width: 400px;
 }
+
+/*Datenschutz*/
+#datenschutz{
+  background-color: #ffffff;
+  text-align: left;
+  margin-left: 10px;
+}

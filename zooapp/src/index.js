@@ -6,6 +6,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Impressum from './components/Impressum';
 import Layout from './components/Layout';
+import Datenschutz from './components/Datenschutz';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +15,7 @@ root.render(
         <Route path="/" element={<Layout />}>
           <Route index element={<App />} />
           <Route path="impressum" element={<Impressum />} />
+          <Route path="datenschutz" element={<Datenschutz />} />
         </Route>
       </Routes>
     </BrowserRouter>
