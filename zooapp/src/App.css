@@ -1,11 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 /*HEADER*/
 
 div#image_bg{
@@ -53,49 +45,6 @@ div#image_bg{
 
 #btn_anmelden {
   text-align: right;
-}
-
-/*Menü Slider*/
-
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-  text-align:center;
-}
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-
-}
-
-.sidenav a:hover{
-  color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
 }
 
 /*Logo*/
@@ -149,9 +98,11 @@ div#image_bg{
   margin-left: 10px;
 }
 
+/*Sidebar*/
+
 /* Position and sizing of burger button */
 .bm-burger-button {
-  position: fixed;
+  position: relative;
   width: 36px;
   height: 30px;
   left: 36px;
@@ -186,6 +137,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .bm-menu-wrap {
   position: fixed;
   height: 100%;
+  left: 0;
+  top: 0;
 }
 
 /* General sidebar styles */
@@ -195,10 +148,10 @@ Note: Beware of modifying this element as it can break the animations - you shou
   font-size: 1.15em;
 }
 
-/* Morph shape necessary with bubble or elastic */
+/* Morph shape necessary with bubble or elastic *//*
 .bm-morph-shape {
   fill: #373a47;
-}
+}*/
 
 /* Wrapper for item list */
 .bm-item-list {
@@ -206,19 +159,15 @@ Note: Beware of modifying this element as it can break the animations - you shou
   padding: 0.8em;
 }
 
-/* Individual item */
-.bm-item {
-  display: inline-block;
-}
-
 /* Styling of overlay */
 .bm-overlay {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgb(0, 0, 0);
+  opacity: 0;
 }
+
 /* Individual item */
 .bm-item {
   display: inline-block;
-
   color: #d1d1d1;
   margin-bottom: 10px;
   text-align: left;
