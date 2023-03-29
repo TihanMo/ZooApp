@@ -14,6 +14,9 @@ export default function Footer() {
       <div className='footer_inhalt' id='hilfe'>
         <Link to="/hilfe">Hilfe</Link>
       </div>
+      <div className='footer_inhalt' id='hilfe'>
+        <Link to="/datenschutz">Datenschutz</Link>
+      </div>
     </div>
   )
 }
