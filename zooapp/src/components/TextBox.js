@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Text_box(text_content) {
+export default function TextBox(text_content) {
   return (
     <div>
       <h2>{text_content.name}</h2>

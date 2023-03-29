@@ -9,6 +9,8 @@
 /*HEADER*/
 
 div#image_bg{
+  padding: 0%;
+  margin: 0%;
   background-image: url("./tier_infos/Panda.jpg");
   background-repeat: no-repeat;
   background-position-y: center;
@@ -89,6 +91,6 @@ div#image_bg{
 
 /*TextBox*/
 
-.TextBox {
-  background-color: #9e9e9e;
+.text_box {
+  color: yellow;
 }
