@@ -10,7 +10,6 @@ export default function Header() {
     <div className='header_top'>
       <div className='header_inhalt' id='menu_logo'>
         <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
-        <img src={bild} alt="Menü Logo" className='menu_strich' />
       </div>
       <div className='header_inhalt' id='logo'>
         <img src={logo} alt='Logo' id='logo_inhalt'/>
