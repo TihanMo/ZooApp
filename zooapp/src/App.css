@@ -1,3 +1,10 @@
+/* Allgemein */
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
 /*HEADER*/
 
 div#image_bg{
@@ -22,12 +29,6 @@ div#image_bg{
   display: flex;
   border-bottom: 2px solid black;
   padding: 10px;
-}
-
-.header_top::after {
-  content: "";
-  clear: both;
-  display: table;
 }
 
 .header_inhalt {
@@ -77,6 +78,13 @@ div#image_bg{
 .footer {
   width: 100%;
   border-top: 2px solid black;
+  justify-content: center;
+  display: flex;
+}
+
+.footer_inhalt {
+  width: 20%;
+  padding: 50px;
 }
 
 /*TextBox*/
