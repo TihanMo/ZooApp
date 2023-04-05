@@ -1,0 +1,14 @@
+#cloud-config
+package_update: true
+package_upgrade: true
+
+packages:
+  - nodejs
+  - npm
+  - git
+
+runcmd:
+  - sudo su - ubuntu -c "git clone https://github.com/TihanMo/ZooApp.git"
+  - sudo su - ubuntu -c "cd zooapp"
+  - sudo su - ubuntu -c "sudo npm i"
+  - sudo su - ubuntu -c "sudo npm start"
