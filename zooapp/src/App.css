@@ -97,6 +97,10 @@ div#image_bg{
   max-width: 400px;
 }
 
+.text_box.hilfe_seite {
+  max-width: 1000px;
+}
+
 /*Datenschutz*/
 #datenschutz{
   background-color: #ffffff;
