@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import Impressum from './components/Impressum';
 import Layout from './components/Layout';
 import Datenschutz from './components/Datenschutz';
+import Karte from './components/Karte';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +17,7 @@ root.render(
           <Route index element={<App />} />
           <Route path="impressum" element={<Impressum />} />
           <Route path="datenschutz" element={<Datenschutz />} />
+          <Route path="karte" element={<Karte/>} />
         </Route>
       </Routes>
     </BrowserRouter>

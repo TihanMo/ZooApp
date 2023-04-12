@@ -17,6 +17,9 @@ export default props => {
       <a className="menu-item" href="/hilfe">
         Hilfe
       </a>
+      <a className="menu-item" href="/karte">
+        Karte
+      </a>
     </Menu>
   );
 };
