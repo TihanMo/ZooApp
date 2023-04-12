@@ -11,6 +11,9 @@ export default props => {
       <a className="menu-item" href="/login">
         Anmelden
       </a>
+      <a className="menu-item" href="/karte">
+        Karte
+      </a>
       <a className="menu-item" href='/impressum'>
         Impressum
       </a>
@@ -19,9 +22,6 @@ export default props => {
       </a>
       <a className="menu-item" href="/hilfe">
         Hilfe
-      </a>
-      <a className="menu-item" href="/karte">
-        Karte
       </a>
     </Menu>
   );
