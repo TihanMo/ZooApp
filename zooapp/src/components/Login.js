@@ -49,7 +49,7 @@ export default function Login() {
                     <button onClick={logOut}>Log out</button>
                 </div>
             ) : (
-                <button onClick={() => login()}>Sign in with Google 🚀 </button>
+                <button onClick={() => login()}>Sign in with Google</button>
             )}
         </div>
     );
