@@ -4,6 +4,7 @@ import '../App.css';
 import bild from '../sys_bilder/menu_strich.png';
 import logo from '../logos/png/logo-black.png';
 import Sidebar from './Sidebar';
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -15,7 +16,9 @@ export default function Header() {
         <img src={logo} alt='Logo' id='logo_inhalt'/>
       </div>
       <div className='header_inhalt' id='btn_anmelden'>
-        <button className='anmelden'>Anmelden</button>
+        <button className='anmelden'>
+          <Link to="/login">Anmelden</Link>
+        </button>
       </div>
     </div>
   )
