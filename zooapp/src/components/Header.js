@@ -1,7 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import '../App.css';
-import bild from '../sys_bilder/menu_strich.png';
 import logo from '../logos/png/logo-black.png';
 import Sidebar from './Sidebar';
 import { Link } from "react-router-dom";
