@@ -1,9 +1,11 @@
 import React from 'react'
 import TextBox from './TextBox'
+import ContactForm from './ContactForm'
 
 export default function Hilfe() {
   return (
-    <div className="hilfe_seite_main">
+    <div>
+      <div className="hilfe_seite_main">
       <h1>Hilfe</h1>
       <TextBox
       className="hilfe_seite"
@@ -30,6 +32,10 @@ export default function Hilfe() {
       name="Wie erreiche ich ZooZ?"
       description=""
       />
+      </div>
+      <div className='hilfe_seite_form'>
+        <ContactForm />
+      </div>
     </div>
   )
 }
