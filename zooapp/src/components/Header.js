@@ -13,11 +13,13 @@ export default function Header() {
         <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
       </div>
       <div className='header_inhalt' id='logo'>
-        <img src={logo} alt='Logo' id='logo_inhalt'/>
+        <Link to="/">
+          <img src={logo} alt='Logo' id='logo_inhalt'/>
+        </Link>
       </div>
       <div className='header_inhalt' id='btn_anmelden'>
         <button className='anmelden'>
-          <Link to="/login">Anmelden</Link>
+          <Link to="/login" className='anmelden_text'>Anmelden</Link>
         </button>
       </div>
     </div>

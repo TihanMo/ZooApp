@@ -1,7 +1,7 @@
 import { GoogleLogin } from '@react-oauth/google';
 
 export default function Login() {
-    
+
     const responseMessage = (response) => {
         console.log(response);
     };
@@ -11,9 +11,6 @@ export default function Login() {
 
     return (
         <div>
-            <h2>React Google Login</h2>
-            <br />
-            <br />
             <GoogleLogin onSuccess={responseMessage} onError={errorMessage} />
         </div>
     )
