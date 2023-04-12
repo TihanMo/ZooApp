@@ -3,15 +3,20 @@ import TextBox from './TextBox'
 
 export default function Hilfe() {
   return (
-    <div>
+    <div className="hilfe_seite_main">
       <h1>Hilfe</h1>
       <TextBox
       className="hilfe_seite"
+      id="htb_1"
       name="Wie kann ich Tickets für ZooZ kaufen?"
-      description=""
+      description="Wir werden in der nahen Zukunft einen Online-Shop mit Tickets anbieten, 
+      die es einfach machen wird für jeden Benutzer ein Online-Ticket zu kaufen. Doch zum 
+      jetzigen Standpunkt, sollten sie beim Eingang des Zoos einen Ticketschalter sehen und 
+      dort können sie ihr Ticket erwerben."
       />
       <TextBox
       className="hilfe_seite"
+      id="htb_2"
       name="Welche Tiere kann ich im ZooZ sehen?"
       description="Unser Zoo hat eine breite Auswahl von Tieren aus der ganzen Welt. 
       Die beliebtesten Tiere sind Affen, Elefanten, Bären, Löwen, Tiger, Papageie, 
@@ -20,6 +25,7 @@ export default function Hilfe() {
       einen guten Einblick in die Tierwelt zu ermöglichen."
       />
       <TextBox
+      id="htb_3"
       className="hilfe_seite"
       name="Wie erreiche ich ZooZ?"
       description=""
