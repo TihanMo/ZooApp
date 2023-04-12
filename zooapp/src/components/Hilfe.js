@@ -4,9 +4,9 @@ import ContactForm from './ContactForm'
 
 export default function Hilfe() {
   return (
-    <div>
-      <div className="hilfe_seite_main">
-      <h1>Hilfe</h1>
+    <div className='hilfe_seite_main'>
+      <div className="hilfe_seite_top">
+      <h1 id='hilfe_h1'>Hilfe</h1>
       <TextBox
       className="hilfe_seite"
       id="htb_1"

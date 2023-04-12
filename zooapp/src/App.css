@@ -194,7 +194,17 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 .hilfe_seite_main{
   background-image: url("./tier_infos/Eurasischer_Wolf.jpg");
+  background-size: cover;
+}
 
+#hilfe_h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  border: white;
+  background-color: rgba(47, 79, 79, 0.63);
+  margin-top: 0px;
+  font-size: 60px;
 }
 
 #htb_1 {
@@ -219,6 +229,11 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .hilfe_seite_form {
   display: flex;
   justify-content: center;
+  background-color: rgba(47, 79, 79, 0.63);
+  border-radius: 50px;
+  margin-left: 400px;
+  margin-right: 400px;
+  
 }
 
 #contact_name {
@@ -236,3 +251,4 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .btn {
   margin-bottom: 20px;
 }
+
