@@ -8,6 +8,9 @@ export default props => {
       <a className="menu-item" href="/">
         Home
       </a>
+      <a className="menu-item" href="/login">
+        Anmelden
+      </a>
       <a className="menu-item" href='/impressum'>
         Impressum
       </a>

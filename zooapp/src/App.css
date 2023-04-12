@@ -38,6 +38,14 @@ div#image_bg{
   text-align: center;
 }
 
+.anmelden_text {
+  color: white;
+}
+
+.anmelden_text:hover {
+  color: black;
+}
+
 /*Menü Logo*/
 
 #menu_logo {
