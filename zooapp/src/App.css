@@ -193,7 +193,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /*Hilfe Seite*/
 
 .hilfe_seite_main{
-  background-color: aqua;
   background-image: url("./tier_infos/Eurasischer_Wolf.jpg");
 
 }
@@ -218,7 +217,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 .hilfe_seite_form {
-  background-color: aqua;
   display: flex;
   justify-content: center;
 }
