@@ -18,9 +18,11 @@ export default function Header() {
         </Link>
       </div>
       <div className='header_inhalt' id='btn_anmelden'>
-        <button className='anmelden'>
-          <Link to="/login" className='anmelden_text'>Anmelden</Link>
-        </button>
+        <Link to="/login" className='anmelden_text'>
+          <button className='anmelden'>
+            Anmelden
+          </button>
+        </Link>
       </div>
     </div>
   )
