@@ -10,6 +10,7 @@ import Layout from './components/Layout';
 import Datenschutz from './components/Datenschutz';
 import Karte from './components/Karte';
 import Login from './components/Login';
+import Hilfe from './components/Hilfe';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
