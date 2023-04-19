@@ -30,7 +30,8 @@ export default function Hilfe() {
       id="htb_3"
       className="hilfe_seite"
       name="Wie erreiche ich ZooZ?"
-      description=""
+      description="Sie können Google Maps für die effizienteste Route benutzen oder
+      unsere integrierte Karten Seite benutzen"
       />
       </div>
       <div className='hilfe_seite_form'>
