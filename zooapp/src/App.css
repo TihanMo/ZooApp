@@ -227,6 +227,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 .hilfe_seite_form {
+  color: #ffffff;
   display: flex;
   justify-content: center;
   background-color: rgba(47, 79, 79, 0.63);
