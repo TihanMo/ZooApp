@@ -17,6 +17,25 @@ div#image_bg{
   background-size: cover;
 }
 
+/*Textboxen*/
+#tb_1 {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+}
+
+#tb_2 {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+}
+
+#tb_3 {
+  position: absolute;
+  top: 120%;
+  left: 0%;
+}
+
 .menu_strich {
   height: 40px;
   width: auto;
