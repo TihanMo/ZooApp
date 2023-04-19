@@ -8,8 +8,7 @@ a {
 /*HEADER*/
 
 div#image_bg{
-  padding: 0%;
-  margin: 0%;
+  margin-top: -20px;
   width: auto;
   height: 600px;
   background-image: url("./tier_infos/Panda.jpg");
