@@ -105,6 +105,10 @@ div#image_bg{
   max-width: 400px;
 }
 
+.text_box.hilfe_seite {
+  max-width: 1000px;
+}
+
 /*Datenschutz*/
 #datenschutz{
   background-color: #ffffff;
@@ -194,10 +198,65 @@ Note: Beware of modifying this element as it can break the animations - you shou
   color: #ffffff;
 }
 
-/* Karte */
+/*Hilfe Seite*/
 
-#karte{
+.hilfe_seite_main{
+  background-image: url("./tier_infos/Eurasischer_Wolf.jpg");
+  background-size: cover;
+}
+
+#hilfe_h1 {
   display: flex;
   justify-content: center;
+  color: white;
+  border: white;
+  background-color: rgba(47, 79, 79, 0.63);
+  margin-top: 0px;
+  font-size: 60px;
+}
+
+#htb_1 {
+  position: relative;
+  left: 0%;
+}
+
+#htb_2 {
+  position: relative;
+  left: 30%;
+}
+
+#htb_3 {
+  position: relative;
+  left: 0%;
+}
+
+.container mt-5 {
+  margin-top: 20px;
+}
+
+.hilfe_seite_form {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(47, 79, 79, 0.63);
+  border-radius: 50px;
+  margin-left: 400px;
+  margin-right: 400px;
   
 }
+
+#contact_name {
+  margin-bottom: 10px;
+}
+
+#contact_email {
+  margin-bottom: 10px;
+}
+
+#contact_message {
+  margin-bottom: 10px;
+}
+
+.btn {
+  margin-bottom: 20px;
+}
+
