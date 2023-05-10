@@ -5,6 +5,7 @@ import TextBox from './TextBox';
 export default function Home() {
   return (
     <div id="image_bg">
+
       <TextBox
         id="tb_1"
         name="Unsere Tiere"
@@ -23,6 +24,7 @@ export default function Home() {
         name="Öffnungszeiten"
         description="Wir haben Montag bis Freitag von 8:00-21:00 offen und an Samstagen 9:00-18:00"
       />
+
     </div>
   )
 }
