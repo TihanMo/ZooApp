@@ -20,7 +20,7 @@ div#image_bg{
 /*Textboxen*/
 #tb_1 {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 0%;
 }
 
@@ -31,8 +31,8 @@ div#image_bg{
 }
 
 #tb_3 {
-  position: absolute;
-  top: 120%;
+  position: relative;
+  top: 60%;
   left: 0%;
 }
 
