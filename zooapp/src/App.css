@@ -12,28 +12,43 @@ a {
 div#image_bg{
   border-top: 2px solid black;
   width: auto;
-  height: 1200px;
+  height: 800px;
   background-image: url("./tier_infos/Panda.jpg");
   background-repeat: no-repeat;
   background-position-y: center;
   background-size: cover;
 }
 
+#boxhome1{
+  display: flex;
+  height: auto;
+}
+
+#boxhome2 {
+  display: flex;
+  height: auto;
+}
+
+#boxhome3 {
+  display: flex;
+  height: auto;
+}
+
 /*Textboxen*/
 #tb_1 {
-  position: absloute;
+  display: flex;
   left: 10%;
   font-size: 20px;
 }
 
 #tb_2 {
-  position: absolute;
+  display: flex;
   left: 65%;
   font-size: 20px;
 }
 
 #tb_3 {
-  position: absolute;
+  display: flex;
   left: 10%;
   font-size: 20px;
 }
